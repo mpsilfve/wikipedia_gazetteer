@@ -1,4 +1,4 @@
-# wikipedia_gazetteer
+# Wikipedia Gazetteer
 
 Named entity gazetteer derived from the Finnish Wikipedia.
 
