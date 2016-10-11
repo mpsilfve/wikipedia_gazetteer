@@ -8,7 +8,7 @@ This code will build a gazetteer or Finnish Named Entity Recognition from the Fi
 
 Categories are based on Wikipedia infoboxes. Some articles lack an infobox (e.g. the article for ThinkPad in the Finnish Wikipedia). Terms corresponding to these articles do not currently receive any categories.
 
-This project relies on an xml-dump of the Finnish Wikipedia. You can get one e.g. from the [DBPedia project] (http://downloads.dbpedia.org/2015-10/core-i18n/fi/pages_articles_fi.xml.bz2)
+This project relies on an xml-dump of the Finnish Wikipedia. You can get one e.g. from the [DBPedia project] (http://downloads.dbpedia.org/2015-10/core-i18n/fi/pages_articles_fi.xml.bz2).
 
 You can possibly also use the code to generate gazetteers for other languages but I have't tested this. 
 
