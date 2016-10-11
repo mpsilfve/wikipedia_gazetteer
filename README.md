@@ -4,7 +4,9 @@ Named entity gazetteer derived from the Finnish Wikipedia.
 
 # General Stuff
 
-This code will build a gazetteer or Finnish Named Entity Recognition from the Finnish Wikipedia. A gazetteer maps terms into categories. For example, it maps "Samsung" into the category "Yritys" (Finnish for company) and "Nokia" into the categories "Yritys" and "Suomen kunta" (Finnish town). 
+This code will build a gazetteer or Finnish Named Entity Recognition from the Finnish Wikipedia. A gazetteer maps terms into categories. For example, the gazetteer built by this code maps "Samsung" into the category "Yritys" (Finnish for company) and "Nokia" into the categories "Yritys" and "Suomen kunta" (Finnish town). 
+
+Categories are based on Wikipedia infoboxes. Some articles lack an infobox (e.g. the article for ThinkPad in the Finnish Wikipedia). Terms corresponding to these articles do not currently receive any categories.
 
 This project relies on an xml-dump of the Finnish Wikipedia. You can get one e.g. from the [DBPedia project] (http://downloads.dbpedia.org/2015-10/core-i18n/fi/pages_articles_fi.xml.bz2)
 
